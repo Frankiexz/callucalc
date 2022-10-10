@@ -4,7 +4,7 @@ from tkinter import ttk
 
 
 root = tk.Tk()
-root.geometry("400x600")
+root.geometry("420x300")
 root.resizable(0, 0)
 title = Callu-Calc
 root.title(title)
@@ -31,7 +31,7 @@ btns_frame = Frame(win, width=312, height=272.5, bg="grey")
  
 btns_frame.pack()
  
-# This will be the first row for our calculator UI 
+# This will be the first row for our calculator UI ,,, & we have changed the button frames.
 
 clear = Button(btns_frame, text = "C", fg = "black", width = 32, height = 3, bd = 0, bg = "#eee", cursor = "hand2", command = lambda: bt_clear()).grid(row = 0, column = 0, columnspan = 3, padx = 1, pady = 1)
  
